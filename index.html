@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+    <style>
+        .img1{
+            filter: blur(1px);
+            /*filter: brightness(122%);*/
+            filter: invert(.21);
+        }
+        .img2{
+            filter: blur(2px);
+            /*filter: contrast(100%);/*(2.0)*/ 
+            filter: opacity(10%);
+        }
+        .img3{
+            filter: blur(3px);
+            /*filter: grayscale(20%);*/
+            filter: sepia();
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conatainer">
+        <img class = "img1" src="https://imgs.search.brave.com/GbENiWEJCQgaKLDdbHZyX9oVc0hOnGwteq7on_DoPKU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDUyMzQ3/NjMuanBn" alt="">
+        <img class = "img2" src="https://imgs.search.brave.com/RFCVdvNFfOuvudcDkvxwzkTklgZbB8x5jetNuXCrBHg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMTQ1/Njc4OS5qcGc" alt="">
+        <img class = "img3" src="https://imgs.search.brave.com/Ip0RFEYlJo2o6yCk3YRekZ4txinRBdzfQPLEyzY1V98/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc4NDU3/OTYuanBn" alt="">
+    </div>
+    
+</body>
+</html>
